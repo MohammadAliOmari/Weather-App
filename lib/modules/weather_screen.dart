@@ -6,14 +6,14 @@ import 'package:weather_app/cubit/cubit.dart';
 import 'package:weather_app/cubit/states.dart';
 
 class WeatherScreen extends StatelessWidget {
-  const WeatherScreen({
+  final TextEditingController controller = TextEditingController();
+
+  WeatherScreen({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController controller = TextEditingController();
-
     return BlocProvider(
       create: (context) => WeatherCubit()..getWeather(),
       child: BlocConsumer<WeatherCubit, WeatherStates>(

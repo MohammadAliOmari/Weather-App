@@ -19,48 +19,27 @@ class WeatherCubit extends Cubit<WeatherStates> {
   String city = 'amman';
   WeatherModel? weatherFuture;
   Widget getWeatherIcon(int code) {
-    switch (code) {
-      case >= 200 && < 300:
-        return Image.asset(
-          'assets/1.png',
-          scale: 1.5,
-        );
-      case >= 300 && < 400:
-        return Image.asset(
-          'assets/2.png',
-          scale: 1.5,
-        );
-      case >= 500 && < 600:
-        return Image.asset(
-          'assets/3.png',
-          scale: 1.5,
-        );
-      case >= 600 && < 700:
-        return Image.asset(
-          'assets/4.png',
-          scale: 1.5,
-        );
-      case >= 700 && < 800:
-        return Image.asset(
-          'assets/5.png',
-          scale: 1.5,
-        );
-      case == 800:
-        return Image.asset(
-          'assets/6.png',
-          scale: 1.5,
-        );
-      case > 800 && <= 804:
-        return Image.asset(
-          'assets/7.png',
-          scale: 1.5,
-        );
-      default:
-        return Image.asset(
-          'assets/7.png',
-          scale: 1.5,
-        );
+    String imagePath = 'assets/7.png';
+    if (code >= 200 && code < 300) {
+      imagePath = 'assets/1.png';
+    } else if (code >= 300 && code < 400) {
+      imagePath = 'assets/2.png';
+    } else if (code >= 500 && code < 600) {
+      imagePath = 'assets/3.png';
+    } else if (code >= 600 && code < 700) {
+      imagePath = 'assets/4.png';
+    } else if (code >= 700 && code < 800) {
+      imagePath = 'assets/5.png';
+    } else if (code == 800) {
+      imagePath = 'assets/6.png';
+    } else if (code > 800 && code <= 804) {
+      imagePath = 'assets/7.png';
     }
+
+    return Image.asset(
+      imagePath,
+      scale: 1.5,
+    );
   }
 
   void getWeather() async {
