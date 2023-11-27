@@ -50,10 +50,6 @@ class WeatherCubit extends Cubit<WeatherStates> {
     final response = await http.get(
       Uri.parse(url),
     );
-    // if (weatherFuture == null) {
-
-    //   print('/////////////////////////////');
-    // }
 
     if (response.statusCode == 200) {
       final jsonBody = jsonDecode(response.body);
