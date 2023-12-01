@@ -1,8 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intl/intl.dart';
-import 'package:weather_app/components/rows_temp.dart';
 import 'package:weather_app/cubit/cubit.dart';
 import 'package:weather_app/cubit/states.dart';
 import 'package:weather_app/modules/weather_view.dart';
