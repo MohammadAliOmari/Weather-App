@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## Demo
+- [demo]([https://mohamadtodolist.netlify.app](https://moh-weatherapp.netlify.app/))
 
-This project is a starting point for a Flutter application.
+# Screenshot 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/MohammadAliOmari/test/assets/123997624/1b3c23d6-f6a5-46ab-b7e5-48e3eebc4691" width="270" height="500">|<img src="https://github.com/MohammadAliOmari/test/assets/123997624/b993a78c-c0fc-4b5b-969d-0589ea03ba15" width="270" height="500">|
+<img src="https://github.com/MohammadAliOmari/test/assets/123997624/0b0987d5-ba01-4368-b42d-cb65163d3fca" width="270" height="500">
