@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Demo
-- [demo]([https://mohamadtodolist.netlify.app](https://moh-weatherapp.netlify.app/))
+- [demo](https://moh-weatherapp.netlify.app/)
 
 # Screenshot 
 
